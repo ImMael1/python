@@ -1,6 +1,7 @@
 import random
 
-opcoes_usuario = input("Insira as opcoes a serem sorteadas, separados por vírgula:")
+opcoes_usuario = input(
+    "Insira as opcoes a serem sorteadas, separados por vírgula:")
 
 opcoes = opcoes_usuario.split(',')
 
